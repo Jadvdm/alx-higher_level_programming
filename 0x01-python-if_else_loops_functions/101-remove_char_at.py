@@ -1,6 +1,5 @@
-
 #!/usr/bin/python3
-# Author - adebare Adeyemo 
+# Author - adebare Adeyemo
 
 def remove_char_at(str, n):
     if n < 0:
