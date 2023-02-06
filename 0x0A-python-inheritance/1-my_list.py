@@ -1,15 +1,19 @@
 #!/usr/bin/python3
 """
-contains the MyList class
+A module to prints a list in ascending order
 """
 
 
 class MyList(list):
-    """a subclass of list"""
-    def __init__(self):
-        """initializes the object"""
-        super().__init__()
+    """
+    A class to customize the list class
+    """
 
     def print_sorted(self):
-        """prints the sorted list"""
-        print(sorted(self))
+        """
+        Prints a list in ascending order
+        Sort a list and then prints on the output
+        """
+
+        if issubclass(MyList, list):
+            print(sorted(self))
